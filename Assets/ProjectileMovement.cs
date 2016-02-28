@@ -9,6 +9,8 @@ public class ProjectileMovement : MonoBehaviour
 
 		// Public variable declaration
 		public float movementSpeed = 5f;
+		public Collider2D[] blockingColliders;
+		public Collider2D[] deathColliders;
 
 		// Start is called once only
 		void Start ()

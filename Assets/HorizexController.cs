@@ -25,7 +25,7 @@ public class HorizexController : MonoBehaviour
 								}
 						} else if (other == blockerCollider [0] || other == blockerCollider [1]) {
 								if (CheckProjectile (other.tag)) {
-										// Do blocker thing
+										Destroy (other.gameObject);
 										Debug.Log ("Block");
 								}
 						} else {

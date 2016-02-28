@@ -1,17 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\testFire.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ProjectileMovement.cs">
     <Files>
-      <File FileName="Assets\Scripts\EnemyMovement.cs" Line="36" Column="4" />
-      <File FileName="Assets\Scripts\SwipeController.cs" Line="91" Column="1" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="20" Column="26" />
-      <File FileName="Assets\Scripts\TouchButtonHighscore.cs" Line="14" Column="27" />
-      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="68" Column="90" />
-      <File FileName="Assets\Scripts\DestroyEnemy.cs" Line="32" Column="4" />
-      <File FileName="Assets\HorizexController.cs" Line="27" Column="39" />
-      <File FileName="Assets\testFire.cs" Line="8" Column="40" />
-      <File FileName="Assets\ProjectileMovement.cs" Line="27" Column="78" />
-      <File FileName="Assets\DestroyProjectile.cs" Line="25" Column="23" />
+      <File FileName="Assets\HorizexController.cs" Line="32" Column="1" />
+      <File FileName="Assets\Scripts\EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SwipeController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TouchButtonHighscore.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemySpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\testFire.cs" Line="1" Column="1" />
+      <File FileName="Assets\ProjectileMovement.cs" Line="13" Column="38" />
+      <File FileName="Assets\DestroyProjectile.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
