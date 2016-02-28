@@ -22,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
 				// Initialization of variables
 				mainCamera = Camera.main;
 				screenWidthMax = Screen.width + 15;
-				screenHeightMax = Screen.height;
+				screenHeightMax = Screen.height - 15;
 
 				StartCoroutine ("SpawnWave");
 		}
@@ -41,13 +41,13 @@ public class EnemySpawner : MonoBehaviour
 				switch (randomSelection) {
 				case 0:
 						// Random Spawn Left
-						temp = mainCamera.ScreenToWorldPoint (new Vector3 (screenWidthMin, Random.Range (0, screenHeightMax), 0));
+						temp = mainCamera.ScreenToWorldPoint (new Vector3 (screenWidthMin, Random.Range (100, screenHeightMax), 0));
 						temp.z = 0;
 						return temp;
 						break;
 				case 1:
 						// Random Spawn Right
-						temp = mainCamera.ScreenToWorldPoint (new Vector3 (screenWidthMax, Random.Range (0, screenHeightMax), 0));
+						temp = mainCamera.ScreenToWorldPoint (new Vector3 (screenWidthMax, Random.Range (100, screenHeightMax), 0));
 						temp.z = 0;
 						return temp;
 						break;
